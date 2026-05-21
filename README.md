@@ -1,6 +1,11 @@
 # Resume Analyzer
 
-A Vite + React frontend with a local Node.js API that analyzes a resume against a job description using OpenAI.
+An AI-powered, production-ready application designed to parse and evaluate resumes against specific job descriptions. Built with a modern full-stack architecture, it provides deep, ATS-style analysis and optimization feedback without persisting sensitive user data.
+
+## Features
+- **Stateless Architecture:** High-privacy design—resumes and analysis results are processed in-memory and never stored in a database.
+- **Multi-Format Parsing:** Server-side extraction for PDF, DOCX, and TXT files.
+- **Intelligent Evaluation:** Leverages the OpenAI Responses API to deliver structured feedback, keyword gaps, and alignment scores.
 
 ## Stack
 
